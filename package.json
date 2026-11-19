@@ -1,0 +1,15 @@
+{
+  "name": "mrbarber-dnipro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium redesign for Mr. BARBER — the first men's barbershop in Dnipro (vul. Voskresenska, 20).",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i ./assets/css/tailwind.src.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.js -i ./assets/css/tailwind.src.css -o ./assets/css/tailwind.css --watch",
+    "serve": "python3 -m http.server 8080",
+    "deploy": "vercel --prod --yes"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

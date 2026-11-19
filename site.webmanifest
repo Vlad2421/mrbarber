@@ -1,0 +1,17 @@
+{
+  "name": "Mr. BARBER — барбершоп у Дніпрі",
+  "short_name": "Mr. BARBER",
+  "description": "Перший барбершоп Дніпра: чоловічі стрижки, борода та королівське гоління на вул. Воскресенська, 20.",
+  "lang": "uk",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#09090B",
+  "icons": [
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
